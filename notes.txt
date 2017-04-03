@@ -1,0 +1,14 @@
+CLI
+- ng new app_name > creates new app
+
+- ng serve > serves up the app
+
+Adding new components
+- new.component.ts file
+  ->import angular core
+  ->Declare the component with a selector and template url. Export the class "NewComponent"
+  ->Create a 'new.component.html' file for html
+  ->Declare the new component in app.module.ts
+    --> Import the "NewComponent" from the file path
+    --> Declare "NewComponent" in the modules class
+  ->Add the selector of the new component into the app.component.html
