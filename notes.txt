@@ -7,8 +7,12 @@ Adding new components
 - new.component.ts file
   ->import angular core
   ->Declare the component with a selector and template url. Export the class "NewComponent"
-  ->Create a 'new.component.html' file for html
-  ->Declare the new component in app.module.ts
-    --> Import the "NewComponent" from the file path
-    --> Declare "NewComponent" in the modules class
-  ->Add the selector of the new component into the app.component.html
+- Create a 'new.component.html' file for html
+-Declare the new component in app.module.ts
+  -> Import the "NewComponent" from the file path
+  -> Declare "NewComponent" in the modules class
+-Add the selector of the new component into the app.component.html
+
+Add new components through CLI
+- "ng g c secondComponent"
+- "ng g c folder/thirdcomponent" to nest
